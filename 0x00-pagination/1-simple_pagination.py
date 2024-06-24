@@ -7,6 +7,7 @@ a database of popular baby names.
 import csv
 from typing import List, Tuple
 
+
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """
     Calculate the start and end index for pagination.
